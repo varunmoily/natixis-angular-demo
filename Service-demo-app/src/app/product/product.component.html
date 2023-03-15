@@ -1,0 +1,28 @@
+<p>product works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<div class="container">
+  <h2>Striped Rows</h2>
+  <p>The .table-striped class adds zebra-stripes to a table:</p>            
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ProductName</th>
+        <th>ProductPrice</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let eachRow of product">
+        <td>{{eachRow.ProductName}}</td>
+        <td>{{eachRow.ProductPrice}}</td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>

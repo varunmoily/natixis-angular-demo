@@ -1,0 +1,14 @@
+
+
+
+<div>
+    <h1>{{errorMessage}}</h1>
+</div>
+<p>login works!</p>
+<label>UserName</label>
+<input type="text"[(ngModel)]="userName"/>
+<br>
+<br>
+<label>Password:</label>
+<input type="text"[(ngModel)]="password"/>
+<button (click)="submit()">Submit</button>
